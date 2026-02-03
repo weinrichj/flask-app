@@ -4,6 +4,8 @@ app = Flask(__name__)
 @app.route('/')
 def hello_world():
 	return """
+	<!DOCTYPE html>
+	<html>
 	<body style="text-align:center;font-family:sans-serif; padding-top:50px;">
 		<h1>Dolphin Facts!<h1>
 		<p id="fact">Click the button for a dolphin fact.</p>
@@ -22,4 +24,5 @@ def hello_world():
 			}
 		<script>
 	</body>
+	<html>
 	"""
