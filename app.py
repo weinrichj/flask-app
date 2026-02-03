@@ -22,7 +22,7 @@ def hello_world():
 				const randomFact = facts[Math.floor(Math.random() * facts.length)];
 				document.getElementById('fact').innerText = randomFact;
 			}
-		<script>
+		</script>
 	</body>
-	<html>
+	</html>
 	"""
